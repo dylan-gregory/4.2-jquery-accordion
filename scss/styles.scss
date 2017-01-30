@@ -8,6 +8,7 @@ body{
 
 .panel-heading:hover{
  background-color: #96BD40;
+ color: white;
 
 }
 
@@ -17,8 +18,17 @@ body{
   padding: 5px;
 }
 
+.panel-title{
+  font-size: 25px;
+}
+
 // Bootstraps selector count was higher for this item, so I had to override it to be able to change it myself
 .panel-default > .panel-heading.selected{
   background-color: #96BD40;
+  color: white;
 
+}
+
+i{
+  margin-right: 10px;
 }

@@ -3,5 +3,22 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 body{
-  background-color: green;
+  background-color: #444445;
+}
+
+.panel-heading:hover{
+ background-color: #96BD40;
+
+}
+
+
+.list-group{
+  font-size: 20px;
+  padding: 5px;
+}
+
+// Bootstraps selector count was higher for this item, so I had to override it to be able to change it myself
+.panel-default > .panel-heading.selected{
+  background-color: #96BD40;
+
 }

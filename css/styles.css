@@ -5807,6 +5807,16 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  background-color: green; }
+  background-color: #444445; }
+
+.panel-heading:hover {
+  background-color: #96BD40; }
+
+.list-group {
+  font-size: 20px;
+  padding: 5px; }
+
+.panel-default > .panel-heading.selected {
+  background-color: #96BD40; }
 
 /*# sourceMappingURL=styles.css.map */

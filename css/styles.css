@@ -5827,4 +5827,16 @@ body {
 i {
   margin-right: 10px; }
 
+.numbers {
+  font-size: 15px;
+  color: white;
+  background-color: #444445;
+  text-align: right;
+  position: absolute;
+  right: 30px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
